@@ -1,0 +1,110 @@
+/* ========= RESET ========= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Verdana", sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8ff; /* fundo azul clarinho */
+  color: #333;
+}
+
+/* ========= HEADER ========= */
+header {
+  background-color: #4caf50; /* verde */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffe082; /* amarelinho no hover */
+}
+
+/* ========= SECTIONS ========= */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+/* ========= CARDS ========= */
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px; /* cantos arredondados */
+  border: 2px solid #4caf50;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* ========= BUTTON ========= */
+button, .btn {
+  display: inline-block;
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+button:hover, .btn:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
+
+/* ========= FOOTER ========= */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
